@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+
+body {
+    width: 100%
+}
+
+body {
+    background-color: #67A0D7
+}
+body * {
+    box-sizing: border-box;
+}
+
+#history_mh {
+    color: #330C2F;
+    background-color: #71AFEC;
+    text-align: center;
+    width: 95%;
+    border: 2px solid black;
+}
+
+#toppic img {
+    margin-bottom:20px;
+    width: 99%;
+    height: 300px;
+}
+
+/*.main {display:flex;*/
+/*    justify-content:flex-end;*/
+/*}*/
+/*we need to select fonts.*/
+header {
+    height: 100px;
+    width: 99%;
+    /*margin: 10px;*/
+    text-align: center;
+    color: #F06449;
+    background-color: #FAF4EF;
+    border: 2px #F06449 solid;
+    /*position: relative;*/
+}
+/*we should use hexadecimal for colors*/
+section {
+    display:flex;
+}
+h1 {
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.intro {
+    width:99%;
+    /*margin: 10px;*/
+    font-size: 24px;
+    font-family:'Kreon', serif;
+}
+
+
+
+
+.mainname {
+    background-color: #EED7C5;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.mainname li {
+     font-family: 'Kreon',serif;
+}
+.main {
+    display:flex;
+    justify-content: center;
+    }
+
+#maincontent{
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.mainheader {
+    height:100px;
+    width:100%;
+    text-align:center;
+    margin-top:10px;
+    /*margin-bottom:5px;*/
+    background-color: #EED7C5;
+}
+
+.sidebar {
+    width: 200px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    background-color: #F06449;
+    margin:0;
+    }
+
+.sidebar li {
+   font-family: 'Kreon',serif;
+    font-size: 20px; 
+}    
+    
+.container{
+    display:flex;
+    height:calc(100vh - 150px);
+}
+
+.container p {
+    font-family: 'Kreon';
+    font-size: 20px;
+}
+
+/*I made the font size 20px but okay with making it smaller if we don't all like it- Heather*/
+
+
+h2 {
+    font-family: 'Kreon', serif;
+ }
+
+li {
+    list-style-type: none
+
+}
+
+.main li {
+    margin: 5px;
+}
+
+
+.flexparent {
+    display: inline-flex;
+    flex-direction: row;
+    height: 760px;
+    width:99%;
+    /*margin:20px;*/
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    border: 2px #F06449 solid;
+}
+.child {
+    width: 34%;
+    height: 300px;
+    position: relative;
+    top:30px;
+}
+img {
+    border: 2px #F06449 solid;
+    position: relative;
+    width:285px;
+    height:300px
+}
+.imgtext {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color:#F06449;
+    padding: 4px;
+    border: 2px #F06449 solid;
+}
+
+
+
+
+
